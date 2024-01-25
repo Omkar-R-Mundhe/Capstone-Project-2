@@ -83,3 +83,70 @@ a:hover{
     justify-content: center;
     gap: 1rem;
 }
+
+/* Short Resume */
+.Resume{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    
+    margin-top: 5rem;
+    background-color:#F5EEE6;
+    height: 400px;
+    align-items: center;
+}
+.education{
+    padding: 2rem;
+    border-bottom: solid #BBAB8C;
+    border-left: solid #BBAB8C;
+    border-bottom-left-radius: 2rem;
+    
+}
+
+.edul{
+         list-style: none;
+         color: #111111;
+}
+
+.work-experience{
+    padding: 2rem;
+    border-bottom: solid #BBAB8C;
+    border-left: solid #BBAB8C;
+    border-bottom-left-radius: 2rem;
+}
+
+.skills{
+    padding: 1.5rem;
+    border-bottom: solid #BBAB8C;
+    border-left: solid #BBAB8C;
+    border-bottom-left-radius: 2rem;
+}
+
+.skills-text-img{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    align-items: center;
+    margin-bottom: 1rem;
+    
+}
+
+.skl-ul{
+    list-style: none;
+}
+
+.list{
+   font-weight:bold;
+}
+
+.skills-p1{
+    color: grey;
+}
+
+.skills-list{
+    display: flex;
+    gap: 3rem;
+}
+
+
+
