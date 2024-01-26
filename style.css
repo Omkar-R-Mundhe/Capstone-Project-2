@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -38,6 +38,8 @@ a:hover{
 }
 .logo-text{
     font-size: 2rem;
+    font-family:"Dancing Script", cursive ;
+    font-size: 3rem;
 }
 
 .logo-text:hover{
@@ -148,5 +150,101 @@ a:hover{
     gap: 3rem;
 }
 
+/* Project */
+
+.Project{
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+    
+    
+}
+.Project-text{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+
+}
+.project_p1{
+    font-size: 3rem;
+}
+
+.port-img{
+    height: 200px;
+    padding: 2rem;
+    border: black solid 3px;
+    box-shadow: 10px 10px 5px rgb(132, 129, 129);
+}
+.dog-img{
+    height: 200px;
+    padding: 2rem;
+    border: black solid 3px;
+    box-shadow: 10px 10px 5px rgb(132, 129, 129);
+}
+
+.signup-img{
+    height: 200px;
+    padding: 2rem;
+    border: black solid 3px;
+    box-shadow: 10px 10px 5px rgb(132, 129, 129);
+
+}
+
+.Project-sect{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Project-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+.Project-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.Project-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.pro{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+   
+}
+.pro:hover{
+   color: grey;
+   text-decoration: underline;
+   text-underline-offset: 0.5rem;
+   text-decoration-color: rgb(181, 181, 181);
+}
 
 
+/* Footer */
+
+.footer{
+    background-color: #F8FAE5;
+     display: flex;
+     justify-content: center;
+}
+
+.footer-text1{
+    margin-top: 2rem;
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+
+.footer-in{
+    display: flex;
+    justify-content: center;
+    gap: 0.6rem;
+}
